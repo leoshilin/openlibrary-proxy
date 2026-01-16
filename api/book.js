@@ -1,4 +1,4 @@
-export default async function handler(req, res) {
+/*export default async function handler(req, res) {
   try {
     const { isbn } = req.query
 
@@ -38,4 +38,12 @@ export default async function handler(req, res) {
       message: err.message
     })
   }
+}
+*/
+
+export default async function handler(req, res) {
+  res.status(200).json({
+    ok: true,
+    message: 'api/book is working'
+  });
 }

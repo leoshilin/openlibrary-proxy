@@ -1,0 +1,7 @@
+{
+  "name": "openlibrary-proxy",
+  "private": true,
+  "engines": {
+    "node": "18.x"
+  }
+}
